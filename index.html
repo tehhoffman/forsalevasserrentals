@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>15.24 Acres – Cedar Rock Parkway, Woodway, TX – For Sale By Owner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="15.24 acres of land for sale on Cedar Rock Parkway in Woodway, TX. North Bosque water meter, nearby 3-phase electric, fiber internet, city sewer tap, and professional engineering documentation included." />
+  <style>
+    :root {
+      --accent: #2563eb;
+      --accent-soft: #dbeafe;
+      --bg: #f3f4f6;
+      --card-bg: #ffffff;
+      --text-main: #111827;
+      --text-muted: #6b7280;
+      --border-soft: #e5e7eb;
+      --max-width: 1100px;
+      --radius-lg: 16px;
+      --radius-md: 10px;
+      --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #eff6ff, #f9fafb);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding: 20px 12px 40px;
+    }
+
+    .page {
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 24px;
+      box-shadow: var(--shadow-soft);
+      padding: 24px;
+      border: 1px solid rgba(148, 163, 184, 0.25);
+    }
+
+    @media (min-width: 768px) {
+      .card {
+        padding: 32px 36px;
+      }
+      body {
+        padding: 40px 16px 48px;
+      }
+    }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      border-bottom: 1px solid var(--border-soft);
+      padding-bottom: 20px;
+      margin-bottom: 24px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: #1d4ed8;
+      font-weight: 600;
+      width: fit-content;
+    }
+
+    .badge span.dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #22c55e;
+      box-shadow: 0 0 0 5px rgba(34, 197, 94, 0.15);
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+
+    .header-top {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    @media (min-width: 640px) {
+      .header-top {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+      }
+    }
+
+    .price-block {
+      text-align: left;
+    }
+
+    @media (min-width: 640px) {
+      .price-block {
+        text-align: right;
+      }
+    }
+
+    .price-label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      letter-spacing: 0.08em;
+    }
+
+    .price {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: #16a34a;
+    }
+
+    .subline {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .location-line {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    .location-line strong {
+      color: var(--text-main);
+    }
+
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 0.95rem;
+      margin-top: 8px;
+      align-items: center;
+    }
+
+    .contact strong {
+      font-weight: 600;
+    }
+
+    .contact a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .tag {
+      padding: 4px 10px;
+      font-size: 0.8rem;
+      border-radius: 999px;
+      border: 1px solid var(--border-soft);
+      background: #f9fafb;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    /* Gallery section */
+    .gallery {
+      margin-bottom: 24px;
+    }
+
+    .gallery-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 10px;
+      gap: 6px;
+    }
+
+    .gallery-header h2 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .gallery-hint {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 10px;
+    }
+
+    @media (max-width: 640px) {
+      .gallery-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Slider styles */
+    .gallery-main {
+      position: relative;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--border-soft);
+      background: #e5e7eb;
+      min-height: 260px;
+    }
+
+    .slider {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+
+    .slide {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      transition: opacity 0.35s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #e5e7eb;
+      pointer-events: none; /* prevent hidden slides from intercepting clicks */
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      cursor: zoom-in;
+    }
+
+    .slide.active {
+      opacity: 1;
+      position: absolute;
+      inset: 0;
+      pointer-events: auto; /* only active slide is interactive */
+      z-index: 1;
+    }
+
+    .slide-placeholder {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      padding: 16px;
+      text-align: center;
+    }
+
+    .slider-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      border: none;
+      background: rgba(15, 23, 42, 0.65);
+      color: #f9fafb;
+      width: 34px;
+      height: 34px;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 1.1rem;
+      z-index: 3; /* ensure buttons sit above slides */
+    }
+
+    .slider-btn:hover {
+      background: rgba(15, 23, 42, 0.9);
+    }
+
+    .slider-btn.prev { left: 10px; }
+    .slider-btn.next { right: 10px; }
+
+    .slider-dots {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 6px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.4);
+      /* Show only ~5 dots while hinting there are more */
+      --dots-visible: 5;
+      --dot-size: 8px;
+      --dot-gap: 6px;
+      width: calc(var(--dots-visible) * var(--dot-size) + (var(--dots-visible) - 1) * var(--dot-gap) + 16px);
+      overflow-x: auto;
+      overflow-y: hidden;
+      scroll-behavior: smooth;
+      -ms-overflow-style: none; /* IE/Edge hide scrollbar */
+      scrollbar-width: none;    /* Firefox hide scrollbar */
+      -webkit-mask-image: linear-gradient(to right, transparent, black 16px, black calc(100% - 16px), transparent);
+      mask-image: linear-gradient(to right, transparent, black 16px, black calc(100% - 16px), transparent);
+      z-index: 3; /* ensure dots sit above slides */
+    }
+    .slider-dots::-webkit-scrollbar { display: none; } /* WebKit hide scrollbar */
+
+    .slider-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: rgba(249, 250, 251, 0.7);
+      border: none;
+      cursor: pointer;
+      flex: 0 0 auto; /* keep dots from shrinking; enables horizontal scroll window */
+    }
+
+    .slider-dot.active {
+      background: #ffffff;
+      width: 10px;
+      height: 10px;
+    }
+
+    /* Gallery thumbs for "featured" small column */
+    .gallery-thumbs {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    .thumb {
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-soft);
+      background: #f3f4f6;
+      min-height: 70px;
+	  height: 160px;
+      overflow: hidden;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .thumb-label {
+      position: absolute;
+      left: 8px;
+      bottom: 6px;
+      background: rgba(15, 23, 42, 0.7);
+      color: #f9fafb;
+      font-size: 0.75rem;
+      padding: 2px 6px;
+      border-radius: 999px;
+    }
+
+    /* Layout for content sections */
+    .content-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1.1fr;
+      gap: 24px;
+    }
+
+    @media (max-width: 900px) {
+      .content-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    section {
+      margin-bottom: 24px;
+    }
+
+    h3.section-title {
+      font-size: 1.05rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    .pill {
+      display: inline-flex;
+      padding: 4px 8px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      background: #ecfdf5;
+      color: #15803d;
+      border: 1px solid #bbf7d0;
+      margin-bottom: 6px;
+    }
+
+    .pill-red {
+      background: #fef2f2;
+      color: #b91c1c;
+      border-color: #fecaca;
+    }
+
+    .pill-blue {
+      background: #eff6ff;
+      color: #1d4ed8;
+      border-color: #bfdbfe;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      font-size: 0.95rem;
+      margin-bottom: 6px;
+    }
+
+    ul li::before {
+      content: "•";
+      color: var(--accent);
+      font-weight: bold;
+      margin-top: 1px;
+    }
+
+    .highlight-box {
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-soft);
+      background: #f9fafb;
+      padding: 12px 14px;
+      margin-top: 8px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 8px;
+    }
+
+    @media (max-width: 500px) {
+      .stat-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .stat {
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-soft);
+      background: white;
+      padding: 10px 12px;
+    }
+
+    .stat-label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      letter-spacing: 0.09em;
+      margin-bottom: 4px;
+    }
+
+    .stat-value {
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .stat-note {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    .cta-box {
+      margin-top: 14px;
+      padding: 12px 14px;
+      border-radius: var(--radius-md);
+      border: 1px solid #dbeafe;
+      background: #eff6ff;
+      font-size: 0.9rem;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .cta-box strong {
+      font-weight: 600;
+    }
+
+    .cta-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 4px;
+    }
+
+    .cta-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 14px;
+      border-radius: 999px;
+      border: none;
+      background: var(--accent);
+      color: white;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
+    }
+
+    .cta-button.small {
+      background: transparent;
+      color: var(--accent);
+      box-shadow: none;
+      border: 1px solid var(--accent-soft);
+      font-weight: 500;
+    }
+
+    /* Full gallery section */
+    #full-gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 10px;
+    }
+
+    .full-gallery-item {
+      position: relative;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      border: 1px solid var(--border-soft);
+      cursor: pointer;
+      background: #e5e7eb;
+      aspect-ratio: 1 / 1;
+    }
+
+    .full-gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .full-gallery-item span {
+      position: absolute;
+      left: 6px;
+      bottom: 6px;
+      padding: 2px 6px;
+      font-size: 0.7rem;
+      background: rgba(15, 23, 42, 0.7);
+      color: #f9fafb;
+      border-radius: 999px;
+    }
+
+    footer {
+      margin-top: 22px;
+      padding-top: 14px;
+      border-top: 1px dashed var(--border-soft);
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+
+    /* Fullscreen image modal */
+    .image-modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.9);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      padding: 24px;
+    }
+
+    .image-modal.open {
+      display: flex;
+    }
+
+    .image-modal img {
+      max-width: 95vw;
+      max-height: 90vh;
+      object-fit: contain;
+      border-radius: 12px;
+      box-shadow: 0 25px 80px rgba(0, 0, 0, 0.5);
+      background: #0b1220;
+    }
+
+    .image-modal-close {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      width: 42px;
+      height: 42px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      background: rgba(255, 255, 255, 0.12);
+      color: #fff;
+      font-size: 28px;
+      line-height: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .image-modal-close:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    /* Responsive columns for full gallery */
+    @media (max-width: 1024px) {
+      #full-gallery-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    @media (max-width: 640px) {
+      #full-gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="card">
+      <header>
+        <div class="badge">
+          <span class="dot"></span>
+          For Sale by Owner
+        </div>
+
+        <div class="header-top">
+          <div>
+            <h1>15.24 Acres – Cedar Rock Parkway<br />Woodway, TX 76712</h1>
+            <p class="location-line">
+              <strong>Address:</strong> TBD Cedar Rock Parkway, Woodway, TX 76712
+            </p>
+            <p class="subline">
+              Prime development land just off Hwy 6 &amp; Cedar Rock Parkway – minutes from Waco, Texas.
+            </p>
+
+            <div class="contact">
+              <div>
+                <strong>Contact:</strong> David Vasser
+              </div>
+              <div>
+                <strong>Phone:</strong>
+                <a href="tel:12544950261">254-495-0261</a>
+              </div>
+            </div>
+
+            <div class="tag-row">
+              <span class="tag">15.24 Acres Total</span>
+              <span class="tag">˜ 9.0 Acres Outside Flood Zone</span>
+              <span class="tag">Utilities Nearby</span>
+              <span class="tag">Engineering Documents Included</span>
+            </div>
+          </div>
+
+          <div class="price-block">
+            <div class="price-label">Asking Price</div>
+            <div class="price">$1,340,000</div>
+            <div class="subline">Price and terms subject to change.</div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Image Gallery Section with Slider -->
+      <section class="gallery" id="photos">
+        <div class="gallery-header">
+          <h2>Property Photos</h2>
+          <div class="gallery-hint">
+            Tap thumbnails or swipe/click arrows to view more. <a href="#full-gallery">View full gallery</a>
+          </div>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Main slider -->
+          <div class="gallery-main">
+            <div class="slider" id="mainSlider">
+              <!-- Slides: replace src attributes with your real images -->
+              <div class="slide active" data-index="0">
+                <!-- Example main aerial image -->
+                <img src="images/map.jpg" alt="Aerial view of the 15.24 acre property on Cedar Rock Parkway" />
+              </div>
+              <div class="slide" data-index="1">
+                <img src="images/aerialearth.jpeg" alt="Roadside view from Cedar Rock Parkway" />
+              </div>
+              <div class="slide" data-index="2">
+                <img src="images/propertyline.jpg" alt="Boundary and fence line of the property" />
+              </div>
+              <div class="slide" data-index="3">
+                <img src="images/001.jpeg" alt="Property Image #1" />
+              </div>
+              <div class="slide" data-index="4">
+                <img src="images/002.jpeg" alt="Property Image #2" />
+              </div>			  
+              <div class="slide" data-index="5">
+                <img src="images/003.jpeg" alt="Property Image #3" />
+              </div>
+              <div class="slide" data-index="6">
+                <img src="images/004.jpeg" alt="Property Image #4" />
+              </div>			  
+              <div class="slide" data-index="7">
+                <img src="images/005.jpeg" alt="Property Image #5" />
+              </div>			  
+              <div class="slide" data-index="8">
+                <img src="images/006.jpeg" alt="Property Image #6" />
+              </div>			  
+              <div class="slide" data-index="9">
+                <img src="images/007.jpeg" alt="Property Image #7" />
+              </div>
+              <div class="slide" data-index="10">
+                <img src="images/008.jpeg" alt="Property Image #8" />
+              </div>
+              <div class="slide" data-index="11">
+                <img src="images/009.jpeg" alt="Property Image #9" />
+              </div>
+              <div class="slide" data-index="12">
+                <img src="images/010.jpeg" alt="Property Image #10" />
+              </div>
+              <div class="slide" data-index="13">
+                <img src="images/011.jpeg" alt="Property Image #11" />
+              </div>
+              <div class="slide" data-index="14">
+                <img src="images/012.jpeg" alt="Property Image #12" />
+              </div>
+              <div class="slide" data-index="15">
+                <img src="images/013.jpeg" alt="Property Image #13" />
+              </div>			  
+              <div class="slide" data-index="16">
+                <img src="images/014.jpeg" alt="Property Image #14" />
+              </div>
+              <div class="slide" data-index="17">
+                <img src="images/015.jpeg" alt="Property Image #15" />
+              </div>
+              <div class="slide" data-index="18">
+                <img src="images/016.jpeg" alt="Property Image #16" />
+              </div>
+              <div class="slide" data-index="19">
+                <img src="images/017.jpeg" alt="Property Image #17" />
+              </div>
+              <div class="slide" data-index="20">
+                <img src="images/018.jpeg" alt="Property Image #18" />
+              </div>
+              <div class="slide" data-index="21">
+                <img src="images/019.jpeg" alt="Property Image #19" />
+              </div>
+              <div class="slide" data-index="22">
+                <img src="images/020.jpeg" alt="Property Image #20" />
+              </div>
+              <div class="slide" data-index="23">
+                <img src="images/021.jpeg" alt="Property Image #21" />
+              </div>
+              <div class="slide" data-index="24">
+                <img src="images/022.jpeg" alt="Property Image #22" />
+              </div>
+              <div class="slide" data-index="25">
+                <img src="images/023.jpeg" alt="Property Image #23" />
+              </div>
+              <div class="slide" data-index="26">
+                <img src="images/024.jpeg" alt="Property Image #24" />
+              </div>
+              <div class="slide" data-index="27">
+                <img src="images/025.jpeg" alt="Property Image #25" />
+              </div>
+              <div class="slide" data-index="28">
+                <img src="images/026.jpeg" alt="Property Image #26" />
+              </div>
+              <div class="slide" data-index="29">
+                <img src="images/027.jpeg" alt="Property Image #27" />
+              </div>
+              <div class="slide" data-index="30">
+                <img src="images/028.jpeg" alt="Property Image #28" />
+              </div>
+              <div class="slide" data-index="31">
+                <img src="images/029.jpeg" alt="Property Image #29" />
+              </div>
+              <div class="slide" data-index="32">
+                <img src="images/030.jpeg" alt="Property Image #30" />
+              </div>
+              <div class="slide" data-index="33">
+                <img src="images/031.jpeg" alt="Property Image #31" />
+              </div>
+              <div class="slide" data-index="34">
+                <img src="images/032.jpeg" alt="Property Image #32" />
+              </div>
+              <div class="slide" data-index="35">
+                <img src="images/033.jpeg" alt="Property Image #33" />
+              </div>
+              <div class="slide" data-index="36">
+                <img src="images/034.jpeg" alt="Property Image #34" />
+              </div>
+              <div class="slide" data-index="37">
+                <img src="images/035.jpeg" alt="Property Image #35" />
+              </div>
+              <div class="slide" data-index="38">
+                <img src="images/036.jpeg" alt="Property Image #36" />
+              </div>			  
+              <div class="slide" data-index="39">
+                <img src="images/037.jpeg" alt="Property Image #37" />
+              </div>			  
+              <div class="slide" data-index="40">
+                <img src="images/038.jpeg" alt="Property Image #38" />
+              </div>			  
+              <div class="slide" data-index="41">
+                <img src="images/039.jpeg" alt="Property Image #39" />
+              </div>			  
+              <div class="slide" data-index="42">
+                <img src="images/040.jpeg" alt="Property Image #40" />
+              </div>			  
+              <div class="slide" data-index="43">
+                <img src="images/041.jpeg" alt="Property Image #41" />
+              </div>
+              <div class="slide" data-index="44">
+                <img src="images/042.jpeg" alt="Property Image #42" />
+              </div>
+              <div class="slide" data-index="45">
+                <img src="images/043.jpeg" alt="Property Image #43" />
+              </div>
+              <div class="slide" data-index="46">
+                <img src="images/044.jpeg" alt="Property Image #44" />
+              </div>
+              <div class="slide" data-index="47">
+                <img src="images/045.jpeg" alt="Property Image #45" />
+              </div>
+              <div class="slide" data-index="48">
+                <img src="images/046.jpeg" alt="Property Image #46" />
+              </div>
+              <div class="slide" data-index="49">
+                <img src="images/047.jpeg" alt="Property Image #47" />
+              </div>
+              <div class="slide" data-index="50">
+                <img src="images/048.jpeg" alt="Property Image #48" />
+              </div>
+              <div class="slide" data-index="51">
+                <img src="images/049.jpeg" alt="Property Image #49" />
+              </div>
+              <div class="slide" data-index="52">
+                <img src="images/050.jpeg" alt="Property Image #50" />
+              </div>
+              <div class="slide" data-index="53">
+                <img src="images/051.jpeg" alt="Property Image #51" />
+              </div>
+              <div class="slide" data-index="54">
+                <img src="images/052.jpeg" alt="Property Image #52" />
+              </div>
+              <div class="slide" data-index="55">
+                <img src="images/053.jpeg" alt="Property Image #53" />
+              </div>
+              <div class="slide" data-index="56">
+                <img src="images/054.jpeg" alt="Property Image #54" />
+              </div>
+              <div class="slide" data-index="57">
+                <img src="images/055.jpeg" alt="Property Image #55" />
+              </div>
+              <div class="slide" data-index="58">
+                <img src="images/056.jpeg" alt="Property Image #56" />
+              </div>
+              <div class="slide" data-index="59">
+                <img src="images/057.jpeg" alt="Property Image #57" />
+              </div>
+              <div class="slide" data-index="60">
+                <img src="images/058.jpeg" alt="Property Image #58" />
+              </div>
+              <div class="slide" data-index="61">
+                <img src="images/059.jpeg" alt="Property Image #59" />
+              </div>
+              <div class="slide" data-index="62">
+                <img src="images/060.jpeg" alt="Property Image #60" />
+              </div>
+              <div class="slide" data-index="63">
+                <img src="images/061.jpeg" alt="Property Image #61" />
+              </div>
+              <div class="slide" data-index="64">
+                <img src="images/062.jpeg" alt="Property Image #62" />
+              </div>
+              <div class="slide" data-index="65">
+                <img src="images/063.jpeg" alt="Property Image #63" />
+              </div>
+              <div class="slide" data-index="66">
+                <img src="images/064.jpeg" alt="Property Image #64" />
+              </div>
+              <div class="slide" data-index="67">
+                <img src="images/065.jpeg" alt="Property Image #65" />
+              </div>
+              <div class="slide" data-index="68">
+                <img src="images/066.jpeg" alt="Property Image #66" />
+              </div>			  
+              <div class="slide" data-index="69">
+                <img src="images/067.jpeg" alt="Property Image #67" />
+              </div>			  
+			  
+              <!-- Fallback text if images fail (briefly visible on load) -->
+              <div class="slide-placeholder">
+                Loading gallery...
+              </div>
+
+              <button class="slider-btn prev" type="button" aria-label="Previous photo">&lsaquo;</button>
+              <button class="slider-btn next" type="button" aria-label="Next photo">&rsaquo;</button>
+
+              <div class="slider-dots" id="sliderDots">
+                <!-- JS populates dots -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Featured thumbnails: click to jump slider -->
+          <div class="gallery-thumbs">
+            <!-- These correspond to the first few slides above via data-slide-index -->
+            <div class="thumb" data-slide-index="30">
+              <img src="images/028.jpeg" alt="Property Image #28" />
+              <span class="thumb-label">Main View</span>
+            </div>
+            <div class="thumb" data-slide-index="36">
+              <img src="images/034.jpeg" alt="Property Image #34" />
+              <span class="thumb-label">Roadside</span>
+            </div>
+            <div class="thumb" data-slide-index="10">
+              <img src="images/008.jpeg" alt="Propery Image #8" />
+              <span class="thumb-label">Boundary</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="content-grid">
+        <!-- Left column -->
+        <div>
+          <!-- Property Highlights -->
+          <section id="highlights">
+            <h3 class="section-title">Property Highlights</h3>
+            <ul>
+              <li>North Bosque water meter (5/8&quot;) – up to 25,000 gallons/month (1 unit).</li>
+              <li>Utility access nearby: 3-phase electric, fiber internet, and city sewer tap.</li>
+              <li>Located just off Hwy 6 and Cedar Rock Parkway in Woodway, TX – minutes from Waco.</li>
+              <li>Excellent visibility and access for future commercial or mixed-use development.</li>
+            </ul>
+          </section>
+
+          <!-- Professional Documentation -->
+          <section id="documentation">
+            <h3 class="section-title">Professional Documentation Included</h3>
+            <ul>
+              <li>Survey by Wallace Engineering.</li>
+              <li>Engineering plans by Barnett Contracting.</li>
+              <li>Site topographic survey.</li>
+              <li>Site plan.</li>
+              <li>Minimal site grading plan.</li>
+              <li>Drainage calculations.</li>
+            </ul>
+
+            <div class="highlight-box">
+              These documents can help streamline your development process and reduce upfront engineering time and costs.
+            </div>
+          </section>
+
+          <!-- Development Opportunity -->
+          <section id="opportunity">
+            <h3 class="section-title">Prime Development Opportunity</h3>
+            <span class="pill pill-blue">Commercial • Mixed-Use • Light Industrial</span>
+            <p>
+              This 15.24-acre tract offers a rare combination of size, location, and existing utility access.
+              With engineering and survey work already completed, it is well-positioned for buyers seeking
+              a site that can move efficiently toward development.
+            </p>
+            <p>
+              The property’s proximity to Hwy 6 and Cedar Rock Parkway provides quick access to Waco, Woodway,
+              and surrounding communities, making it suitable for a variety of commercial or mixed-use concepts.
+            </p>
+          </section>
+        </div>
+
+        <!-- Right column -->
+        <div>
+          <!-- Land Details -->
+          <section id="land-details">
+            <h3 class="section-title">Land Details</h3>
+
+            <div class="stat-grid">
+              <div class="stat">
+                <div class="stat-label">Total Area</div>
+                <div class="stat-value">15.24 Acres</div>
+                <div class="stat-note">Approx. 734 ft × 876.5 ft</div>
+              </div>
+              <div class="stat">
+                <div class="stat-label">Non Flood Zone</div>
+                <div class="stat-value">˜ 9.0 Acres</div>
+                <div class="stat-note">Outside FEMA 100-year zone</div>
+              </div>
+              <div class="stat">
+                <div class="stat-label">Flood Zone Area</div>
+                <div class="stat-value">˜ 6.2 Acres</div>
+                <div class="stat-note">FEMA 100-year flood zone</div>
+              </div>
+              <div class="stat">
+                <div class="stat-label">Usable Mix</div>
+                <div class="stat-value">˜ 60% / 40%</div>
+                <div class="stat-note">Outside vs. within flood zone</div>
+              </div>
+            </div>
+
+            <div class="highlight-box">
+              <span class="pill">Non Flood / Buildable</span>
+              <p>
+                Approximately 60% of the property lies outside the FEMA 100-year flood zone, providing
+                a substantial area for development while still allowing potential use of flood zone
+                portions for parking, green space, or other non-critical improvements (subject to local regulations).
+              </p>
+            </div>
+          </section>
+
+          <!-- Utilities -->
+          <section id="utilities">
+            <h3 class="section-title">Utilities &amp; Access</h3>
+            <ul>
+              <li>North Bosque water meter (5/8&quot;) – up to 25,000 gallons/month (1 unit).</li>
+              <li>Nearby utility access for 3-phase electric.</li>
+              <li>Fiber internet service available nearby.</li>
+              <li>City sewer tap available.</li>
+            </ul>
+          </section>
+
+          <!-- Call to Action -->
+          <section id="contact">
+            <h3 class="section-title">Request More Information</h3>
+            <div class="cta-box">
+              <strong>Ready to discuss this property?</strong>
+              <span>For details, pricing discussions, and documentation, please contact the owner directly.</span>
+
+              <div class="cta-actions">
+                <a class="cta-button" href="tel:12544950261">Call or Text: 254-495-0261</a>
+                <button class="cta-button small" type="button" onclick="window.location='#photos';">
+                  Back to Photos
+                </button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- Full Gallery "Page" (section people can scroll to) -->
+      <section id="full-gallery">
+        <h3 class="section-title">Full Photo Gallery</h3>
+        <div class="highlight-box">
+          Click any image below to view full size resolution.
+        </div>
+
+        <div id="full-gallery-grid"></div>
+      </section>
+
+      <footer>
+        Buyer may verify all measurements, utilities, zoning,
+        and development potential with the appropriate authorities.
+      </footer>
+    </div>
+  </main>
+
+  <!-- Fullscreen image modal (hidden by default) -->
+  <div class="image-modal" id="imageModal" aria-hidden="true" role="dialog" aria-label="Expanded image viewer">
+    <button class="image-modal-close" type="button" aria-label="Close image viewer">&times;</button>
+    <img id="imageModalImg" alt="" />
+  </div>
+
+  <script>
+    (function () {
+      const slider = document.getElementById('mainSlider');
+      const slides = Array.from(slider.querySelectorAll('.slide[data-index]'));
+      const dotsContainer = document.getElementById('sliderDots');
+      const prevBtn = slider.querySelector('.slider-btn.prev');
+      const nextBtn = slider.querySelector('.slider-btn.next');
+
+      if (!slides.length) return;
+
+      let currentIndex = 0;
+
+      // Create dots based on slides
+      slides.forEach((_, idx) => {
+        const dot = document.createElement('button');
+        dot.className = 'slider-dot' + (idx === 0 ? ' active' : '');
+        dot.setAttribute('data-index', idx);
+        dotsContainer.appendChild(dot);
+      });
+
+      const dots = Array.from(dotsContainer.querySelectorAll('.slider-dot'));
+
+      function centerActiveDot(index) {
+        if (!dots.length) return;
+        const active = dots[index];
+        if (!active) return;
+        const dotCenter = active.offsetLeft + active.offsetWidth / 2;
+        const targetScrollLeft = Math.max(0, dotCenter - dotsContainer.clientWidth / 2);
+        dotsContainer.scrollTo({ left: targetScrollLeft, behavior: 'smooth' });
+      }
+
+      function showSlide(index) {
+        if (index < 0) index = slides.length - 1;
+        if (index >= slides.length) index = 0;
+
+        slides.forEach(slide => slide.classList.remove('active'));
+        dots.forEach(dot => dot.classList.remove('active'));
+
+        slides[index].classList.add('active');
+        const activeDot = dots[index];
+        if (activeDot) activeDot.classList.add('active');
+
+        currentIndex = index;
+        centerActiveDot(currentIndex);
+      }
+
+      prevBtn.addEventListener('click', () => {
+        const newIndex = currentIndex - 1 < 0 ? slides.length - 1 : currentIndex - 1;
+        showSlide(newIndex);
+      });
+
+      nextBtn.addEventListener('click', () => {
+        const newIndex = (currentIndex + 1) % slides.length;
+        showSlide(newIndex);
+      });
+
+      dots.forEach(dot => {
+        dot.addEventListener('click', () => {
+          const idx = parseInt(dot.getAttribute('data-index'), 10);
+          showSlide(idx);
+        });
+      });
+
+      // Thumbnail click wiring (small gallery)
+      function wireThumbClicks(selector) {
+        document.querySelectorAll(selector).forEach(el => {
+          el.addEventListener('click', () => {
+            const idx = parseInt(el.getAttribute('data-slide-index'), 10);
+            if (!isNaN(idx)) {
+              showSlide(idx);
+            }
+          });
+        });
+      }
+
+      wireThumbClicks('.thumb[data-slide-index]');
+
+      // ===== Populate bottom full gallery grid from main slider images =====
+      const fullGalleryGrid = document.getElementById('full-gallery-grid');
+      if (fullGalleryGrid) {
+        fullGalleryGrid.innerHTML = '';
+        slides.forEach((slide, idx) => {
+          const imgEl = slide.querySelector('img');
+          if (!imgEl) return;
+          const item = document.createElement('div');
+          item.className = 'full-gallery-item';
+          item.setAttribute('data-slide-index', String(idx));
+
+          const thumb = document.createElement('img');
+          thumb.src = imgEl.src;
+          thumb.alt = imgEl.alt || `Property Image #${idx + 1}`;
+
+          item.appendChild(thumb);
+          fullGalleryGrid.appendChild(item);
+        });
+
+        // Clicking a bottom gallery thumbnail opens the same fullscreen modal and syncs the main slider
+        fullGalleryGrid.addEventListener('click', (e) => {
+          const item = e.target.closest('.full-gallery-item');
+          if (!item) return;
+          const idx = parseInt(item.getAttribute('data-slide-index'), 10);
+          if (isNaN(idx)) return;
+          showSlide(idx);
+          openImageModalFromActive();
+        });
+      }
+
+      // Initial slide setup
+      showSlide(0);
+
+      // Keep active dot centered on resize
+      window.addEventListener('resize', () => centerActiveDot(currentIndex));
+
+      // ===== Fullscreen image modal behavior =====
+      const imageModal = document.getElementById('imageModal');
+      const imageModalImg = document.getElementById('imageModalImg');
+      const imageModalClose = imageModal.querySelector('.image-modal-close');
+
+      function openImageModalFromActive() {
+        const activeImg = slider.querySelector('.slide.active img');
+        if (!activeImg) return;
+        imageModalImg.src = activeImg.src;
+        imageModalImg.alt = activeImg.alt || '';
+        imageModal.classList.add('open');
+        imageModal.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeImageModal() {
+        imageModal.classList.remove('open');
+        imageModal.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+      }
+
+      // Open when clicking anywhere on the active slide (but not arrows/dots)
+      slider.addEventListener('click', (e) => {
+        const target = e.target;
+        // Ignore navigation buttons and dots
+        if (target.closest && (target.closest('.slider-btn') || target.closest('.slider-dots'))) return;
+        const activeSlide = slider.querySelector('.slide.active');
+        if (activeSlide && activeSlide.contains(target)) {
+          openImageModalFromActive();
+        }
+      });
+
+      // Close interactions
+      imageModalClose.addEventListener('click', closeImageModal);
+
+      // Click on backdrop (but not image) to close
+      imageModal.addEventListener('click', (e) => {
+        if (e.target === imageModal) {
+          closeImageModal();
+        }
+      });
+
+      // ESC key to close
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && imageModal.classList.contains('open')) {
+          closeImageModal();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
